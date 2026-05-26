@@ -1,6 +1,7 @@
 import { CheckCircle, Award, Users, Target } from "lucide-react";
 import useScrollAnimation from "../hooks/useScrollAnimation";
 import { COMPANY } from "../data/data";
+import img from "../assets/image.png"
 
 export default function AboutPage() {
   useScrollAnimation();
@@ -27,7 +28,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-16 items-center">
           <div className="animate-on-scroll">
             <img
-              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=700&q=80"
+              src={img}
               alt="Realtor Adekunle"
               className="rounded-3xl w-full h-96 object-cover shadow-xl"
             />
